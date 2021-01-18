@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="org.raik.spring.traing"/>
+    <context:property-placeholder location="classpath:app.properties"/>
+
+<!--    <context:property-placeholder location="classpath:app.properties" />-->
+<!--    <bean id="myCat"-->
+<!--          class="Cat"/>-->
+
+<!--    <bean id="myDog"-->
+<!--          class="Dog" init-method="init" destroy-method="destroy" />-->
+
+<!--    <bean id="myPerson"  class="Person" >-->
+<!--&lt;!&ndash;        <constructor-arg ref="myDog"></constructor-arg>&ndash;&gt;-->
+<!--         <property name="name"  value="${person.name}"/>-->
+<!--         <property name="age"  value="${person.age}"/>-->
+<!--         <property name="pet"  ref="myDog"/>-->
+
+<!--    </bean>-->
+
+
+
+</beans>

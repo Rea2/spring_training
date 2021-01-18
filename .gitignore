@@ -1,0 +1,17 @@
+target/
+#.gitignore
+
+# IDEA Ignores
+*.iml
+*.ipr
+*.iws
+.idea
+
+# Gradle Ignores
+.gradle
+build
+
+*.jar
+*.log*
+*.txt
+
